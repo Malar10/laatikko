@@ -1,15 +1,8 @@
-class Nappulo extends React.component {
-  joo = () => {
-    alert("aaaaaaaaa")
-  }
-
-  render() {
-    return (
-      <button onClick={this.joo}>nappulo</button>
-    )
-  }
+function Nappulo() {
+  return (
+    <button onClick={() => alert('moi')}>nappulo</button>
+  )
 }
-
 
 export default function Home() {
   return (
