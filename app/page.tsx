@@ -1,6 +1,6 @@
 function Nappulo() {
   return (
-    <button onclick="Alert('moi')">nappulo</button>
+    <button onClick="Alert('moi')">nappulo</button>
   )
 }
 
