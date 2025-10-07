@@ -1,6 +1,10 @@
+function joo(){
+  alert("aaaaaaaaa")
+}
+
 function Nappulo() {
   return (
-    <button onClick="Alert('moi')">nappulo</button>
+    <button onClick={joo}>nappulo</button>
   )
 }
 
