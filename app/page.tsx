@@ -1,3 +1,5 @@
+"use client"
+
 function Nappulo() {
   return (
     <button onClick={() => alert('moi')}>nappulo</button>
